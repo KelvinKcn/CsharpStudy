@@ -1,0 +1,8 @@
+    
+    string[] drivers = Directory.GetLogicalDrives();
+            for (int i = 1; i < drivers.Length; i++)
+            {
+                listBox1.Items.Add(drivers[i]);
+
+            }
+            
